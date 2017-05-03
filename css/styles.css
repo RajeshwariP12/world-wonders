@@ -1,0 +1,173 @@
+    body{
+    background-image:url("../image/p2.png");
+    background-attachment: fixed;
+    
+      }
+
+     .navbar
+   {
+      background:black;
+   }
+   
+   .navbar ,li{
+      color:white;
+      padding:0px;
+         }
+   .navbar ,a{
+
+      padding: 7px;
+     
+     }
+   /*header section*/
+    header{
+   font-size: 20px;
+     }
+    
+    /*carousal section*/
+   #myCarousel {
+   margin-top: 80px; 
+   margin-bottom: 10px;
+  
+   }
+   #myCarousel .item { 
+      background-size: 100% 200px;
+      height: 600px;
+     
+   }
+
+    
+   /*jumbotron section*/
+   #myjumbotron{
+      margin-top: 50px;
+   }
+  #myjumbotron .container{
+   margin-top: 10px;
+  }
+  /*Fixed background*/
+  #some {
+    width: 100%;
+    
+    background-attachment:fixed;
+    height:10%;
+    background-image:url("../image/3.png");
+    background-repeat:no-repeat;
+    filter: brightness(50%);
+
+
+  }
+  #colm-row img{
+    padding-top: 20px;
+    border-radius:30%;
+    width: 100%;
+  }
+  #colm1-row img{
+    padding-top: 20px;
+    border-radius:30%;
+    width: 100%;
+  }
+  #colm2-row img{
+    padding-top: 20px;
+    border-radius:30%;
+  }
+  /*.effect img {
+    position:absolute;
+    margin:-15px 0;
+    right:0;
+    top:0;
+    cursor:pointer;
+    -webkit-transition:top .4s ease-in-out,right .4s ease-in-out;
+    -moz-transition:top .4s ease-in-out,right .4s ease-in-out;
+    -o-transition:top .4s ease-in-out,right .4s ease-in-out;
+    transition:top .4s ease-in-out,right .4s ease-in-out
+}
+.effect img.top:hover {
+    top:-230px;
+    right:-330px;
+    padding-bottom:200px;
+    padding-left:300px
+}*/
+
+/*video section*/
+  
+  #video-section iframe{
+    background-color:skyblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background-image: url("../image/1.jpg");*/
+    background-clip: padding-box;
+    border-radius: 50%;
+  }
+  .container h2{
+    text-align: center;
+
+  }
+  .container iframe{
+    width: 100%;
+  }
+  
+
+  /*Footer section*/
+ footer
+   {
+      background:black;
+      color:white;
+      font-size: 11px;
+      padding: 20px;
+   }
+  
+
+   /* Portrait & landscape phone */
+   @media (max-width: 480px) {
+    #slide1 {
+      background: url('../image/agri11.png') top center no-repeat height;
+
+   }
+
+   #slide2 {
+      background: url('../image/slide22.png') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('../image/1.png') top center no-repeat;
+   }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+ #slide1 {
+   background: url('../image/agri11.png') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../image/slide22.png') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../image/1.png') top center no-repeat;
+}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+ #slide1 {
+   background: url('../image/agri11.png') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../image/slide22.png') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../image/1.png') top center no-repeat;
+}
+
+}
+#Signup{
+  margin-top: 100px;
+ background-image: url("../image/p2.png"); 
+}
+#Signup p{
+  text-align: center;
+}
