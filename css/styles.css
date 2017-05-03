@@ -46,9 +46,8 @@
   /*Fixed background*/
   #some {
     width: 100%;
-    
     background-attachment:fixed;
-    height:10%;
+    height:100%;
     background-image:url("../image/3.png");
     background-repeat:no-repeat;
     filter: brightness(50%);
@@ -69,31 +68,22 @@
     padding-top: 20px;
     border-radius:30%;
   }
-  /*.effect img {
-    position:absolute;
-    margin:-15px 0;
-    right:0;
-    top:0;
-    cursor:pointer;
-    -webkit-transition:top .4s ease-in-out,right .4s ease-in-out;
-    -moz-transition:top .4s ease-in-out,right .4s ease-in-out;
-    -o-transition:top .4s ease-in-out,right .4s ease-in-out;
-    transition:top .4s ease-in-out,right .4s ease-in-out
-}
-.effect img.top:hover {
-    top:-230px;
-    right:-330px;
-    padding-bottom:200px;
-    padding-left:300px
-}*/
-
+  #slide1 img{
+    height: 600px;
+  }
+  #slide2 img{
+    height: 600px;
+  }
+  #slide3 img{
+    height: 600px;
+  }
+  
 /*video section*/
   
   #video-section iframe{
     background-color:skyblue;
     padding-top: 20px;
     padding-bottom: 20px;
-    /*background-image: url("../image/1.jpg");*/
     background-clip: padding-box;
     border-radius: 50%;
   }
@@ -119,7 +109,7 @@
    /* Portrait & landscape phone */
    @media (max-width: 480px) {
     #slide1 {
-      background: url('../image/agri11.png') top center no-repeat height;
+      background: url('../image/21.png') top center no-repeat height;
 
    }
 
@@ -136,7 +126,7 @@
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
  #slide1 {
-   background: url('../image/agri11.png') top center no-repeat;
+   background: url('../image/21.png') top center no-repeat;
 }
 
 #slide2 {
@@ -152,7 +142,7 @@
 /* Large desktop */
 @media (min-width: 1200px) {
  #slide1 {
-   background: url('../image/agri11.png') top center no-repeat;
+   background: url('../image/21.png') top center no-repeat;
 }
 
 #slide2 {
@@ -170,4 +160,7 @@
 }
 #Signup p{
   text-align: center;
+}
+#feed img{
+  width: 100%;
 }
