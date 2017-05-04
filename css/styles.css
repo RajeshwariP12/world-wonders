@@ -25,7 +25,7 @@
     
     /*carousal section*/
    #myCarousel {
-   margin-top: 80px; 
+   margin-top: 40px; 
    margin-bottom: 10px;
   
    }
@@ -40,6 +40,9 @@
    #myjumbotron{
       margin-top: 50px;
    }
+   #myjumbotron h1{
+   text-shadow: 2px 2px #FF0000;
+   }
   #myjumbotron .container{
    margin-top: 10px;
   }
@@ -51,13 +54,22 @@
     background-image:url("../image/3.png");
     background-repeat:no-repeat;
     filter: brightness(50%);
-
-
+    height: 500px;
+  }
+  #some1 {
+    width: 100%;
+    background-attachment:fixed;
+    height:100%;
+    height: 500px;
+    background-image:url("../image/3.png");
+    background-repeat:no-repeat;
+    filter: brightness(50%);
   }
   #colm-row img{
     padding-top: 20px;
     border-radius:30%;
     width: 100%;
+
   }
   #colm1-row img{
     padding-top: 20px;
@@ -70,12 +82,15 @@
   }
   #slide1 img{
     height: 600px;
+    
   }
   #slide2 img{
     height: 600px;
+    
   }
   #slide3 img{
     height: 600px;
+    
   }
   
 /*video section*/
@@ -86,6 +101,7 @@
     padding-bottom: 20px;
     background-clip: padding-box;
     border-radius: 50%;
+    width: 100%;
   }
   .container h2{
     text-align: center;
@@ -164,3 +180,5 @@
 #feed img{
   width: 100%;
 }
+
+
